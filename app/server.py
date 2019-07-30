@@ -9,10 +9,10 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=1C6OCxi6u5aYNq_Ffu9T9X7cYmNCbGNs6'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1vccMHdxQoywNYDOnZ45boywzQu3zT1dh'
 export_file_name = 'export.pkl'
 
-classes = ['american_elm','american_sycamore','bald_cypress', 'bigtooth_maple', 'black_cherry', 'cedar_elm', 'green_ash', 'live_oak', 'magnolia', 'mexican_white_oak', 'pecan', 'red_oak', 'shumard_oak', 'texas_ash', 'texas_walnut', 'yaupon']
+classes = ['happy','sad','angry', 'surprised']
 path = Path(__file__).parent
 
 app = Starlette()
